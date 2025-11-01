@@ -24,13 +24,13 @@ nameBtn.addEventListener('click', () => {
     clear.style.display = 'block'
     resultName.textContent ='Name:  '+ inputName.value
 })
-ageBtn.addEventListener('click', () => {
+ageBtn.addEventListener('click', ()=>{
+    resultAge.textContent = 'Age: ' + inputAge.value 
     clear.style.display = 'block'
-    resultAge.textContent = 'Age:  ' + inputName.value
 })
 addressBtn.addEventListener('click', () => {
     clear.style.display = 'block'
-    resultAddress.textContent = 'Address:  ' + inputName.value
+    resultAddress.textContent = 'Address:  ' + inputAdderss.value
 })
 maleBtn.addEventListener('click', () => {
     clear.style.display = 'block'
@@ -75,4 +75,7 @@ clear.addEventListener('click', () => [
     sub2.style.textDecoration = 'none',
     sub3.style.textDecoration = 'none',
     sub4.style.textDecoration = 'none',
+    inputName.value = '',
+    inputAdderss.value = '',
+    inputAge.value=''
 ])

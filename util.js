@@ -1,3 +1,0 @@
-function arrayEquality(original,expected){
-    
-}

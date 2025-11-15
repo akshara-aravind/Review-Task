@@ -1,0 +1,3 @@
+function filterProducts(products,searchText){
+    
+}
